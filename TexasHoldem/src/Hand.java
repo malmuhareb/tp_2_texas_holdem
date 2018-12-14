@@ -32,13 +32,15 @@ public Card[] flop(){
 
 public Card turn(){
 	deck.burn();
-	return deck.nextCard();
+	Card c = deck.nextCard();
+	return c;
 	
 }
 
 public Card river(){
 	deck.burn();
-	return deck.nextCard();
+	Card c = deck.nextCard();
+	return c;
 	
 }
 

@@ -1,7 +1,7 @@
 
 public class Deck {
 	
-	int index;
+	int index = 0;
 	
 	String[] SUITS = {
             "Clubs", "Diamonds", "Hearts", "Spades"

@@ -982,7 +982,7 @@ public class HandEvaluation {
 			index1 = i;
 			rank = ca.get(i).getRank();
 			for (int z = i + 1; z < 7; z++) {
-				if (ca.get(z).getRank() == rank) {
+				if (ca.get(z).getRank() <= rank) {
 					index2 = z;
 					p.setHandRank(2);
 					p.setHandMiniRank(rank);

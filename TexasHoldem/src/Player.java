@@ -15,6 +15,12 @@ public class Player {
 	private int bet = 0;
 	private int chips = 300;
 	private int lastAction = 0;
+	
+	public Player(String n) {
+		this.name = n;
+	}
+	
+	
 
 	
 	public int getLastAction() {
@@ -23,9 +29,7 @@ public class Player {
 	public void setLastAction(int lastAction) {
 		this.lastAction = lastAction;
 	}
-	public Player(String n) {
-		this.name = n;
-	}
+	
 	public Card getpCard1() {
 		return pCard1;
 	}
