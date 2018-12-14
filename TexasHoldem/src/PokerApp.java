@@ -7,7 +7,7 @@ public class PokerApp {
 		int numOfHands = 0;
 		//Deck d = new Deck();
 		Scanner s = new Scanner(System.in);
-		System.out.println("Welcome to Texax Holdem!");
+		System.out.println("Welcome to Texas Holdem!");
 		System.out.println("Please Enter the Number of Players: [2 to 9]: ");
 		int i = s.nextInt();
 		while (i > 9 && i < 2) {
