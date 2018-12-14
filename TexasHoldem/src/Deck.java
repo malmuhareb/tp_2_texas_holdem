@@ -16,8 +16,8 @@ public class Deck {
 	
 	public Deck(){
 		initDeck();
-		shuffle();
-		print();
+		//shuffle();
+		//print();
 		
 		
 	}

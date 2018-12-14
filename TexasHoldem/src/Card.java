@@ -1,6 +1,6 @@
 
 public class Card {
-	int rank;
+	public int rank;
 
 	public int getRank() {
 		return rank;
