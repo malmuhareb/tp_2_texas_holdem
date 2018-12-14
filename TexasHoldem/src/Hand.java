@@ -29,4 +29,8 @@ public Card river(){
 	
 }
 
+public void deal(Player[] p ){
+	
+}
+
 }

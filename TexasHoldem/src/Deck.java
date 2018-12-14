@@ -50,6 +50,9 @@ public class Deck {
 	public void print(){
 		 for (int i = 0; i < deck.length; i++) {
             deck[i].printCard();
+            System.out.println("Rank:  " + deck[i].getRank());
+            System.out.println("Suit:  " + deck[i].getSuit());
+            
         }
 		
 	}
