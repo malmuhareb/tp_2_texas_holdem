@@ -186,9 +186,19 @@ public class PokerApp {
 			}
 
 			///////////
+			System.out.println("Hand Ended.....");
+			for(int ll = 0 ; ll < p.length ; ll++){
+				System.out.println("Player Name:   " + p[ll].getName() + "Chips:  " + p[ll].getChips());
+				
+			}
 			numOfHands++;
 			System.out.println("Would you like to start a new hand? 1:YES 2:NO");
 			select = s.nextInt();
+		}
+		System.out.println("Game Ended.....");
+		for(int ll = 0 ; ll < p.length ; ll++){
+			System.out.println("Player Name:   " + p[ll].getName() + "Chips:  " + p[ll].getChips());
+			
 		}
 
 	}
